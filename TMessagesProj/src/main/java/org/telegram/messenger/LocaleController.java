@@ -2167,7 +2167,8 @@ public class LocaleController {
     }
 
     public void loadRemoteLanguages(final int currentAccount) {
-        loadRemoteLanguages(currentAccount, true);
+        //Disable loading from remote
+        //loadRemoteLanguages(currentAccount, true);
     }
 
     public void loadRemoteLanguages(final int currentAccount, boolean applyCurrent) {
