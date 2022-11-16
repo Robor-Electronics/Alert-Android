@@ -83,7 +83,8 @@ import javax.microedition.khronos.egl.EGLSurface;
 import javax.microedition.khronos.opengles.GL10;
 
 public class IntroActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate {
-    private final static int ICON_WIDTH_DP = 200, ICON_HEIGHT_DP = 150;
+    //Disable the icons on intro
+    private final static int ICON_WIDTH_DP = 0, ICON_HEIGHT_DP = 0;
 
     private final Object pagerHeaderTag = new Object(),
             pagerMessageTag = new Object();
@@ -579,7 +580,7 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
 
             container.addView(frameLayout, 0);
 
-            headerTextView.setText(titles[position]);
+            headerTextView.setText(titles[0]);
             messageTextView.setText(AndroidUtilities.replaceTags(messages[position]));
 
             return frameLayout;
