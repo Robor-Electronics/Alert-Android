@@ -6,7 +6,7 @@
         android:title="@string/AccountSettings"
         android:summary="">
         <intent android:action="org.telegram.messenger.OPEN_ACCOUNT"
-            android:targetPackage="org.telegram.messenger"
-            android:targetClass="org.telegram.ui.LaunchActivity"/>
+            android:targetPackage="org.robor.messenger"
+            android:targetClass="org.robor.ui.LaunchActivity"/>
     </PreferenceScreen>
 </PreferenceScreen>

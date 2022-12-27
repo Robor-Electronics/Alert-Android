@@ -11,8 +11,8 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.voip.VoIPService;
+import org.robor.messenger.AndroidUtilities;
+import org.robor.messenger.voip.VoIPService;
 
 import java.util.concurrent.CountDownLatch;
 
